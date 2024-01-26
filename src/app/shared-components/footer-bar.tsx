@@ -9,8 +9,10 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const pages = ["About Me", "Projects", "Course Help", "Hobbies Corner"];
 const pageLinks = ["/about-me", "/projects", "/course-help", "/hobbies-corner"];
 
-const socialIcons = [<GitHubIcon />, <LinkedInIcon />];
-const socialLinks = ["https://github.com/Cath-Ch", "https://www.linkedin.com/in/cath-ch/"];
+const socialIcons = [
+  {label: "GitHub", icon: <GitHubIcon />, link: "https://github.com/Cath-Ch"}, 
+  {label: "LinkedIn", icon: <LinkedInIcon />, link: "https://www.linkedin.com/in/cath-ch/"}
+];
 
 export default function FooterBar() {
   return (
@@ -31,8 +33,8 @@ export default function FooterBar() {
         </div>
         <div className="footer-socials">
           {socialIcons.map((socialIcon, index) => (
-            <Link key={index} href={socialLinks[index]} className="footer-social">
-              {socialIcon}
+            <Link key={socialIcon.label} href={socialIcon.link} className="footer-social">
+              {socialIcon.icon}
             </Link>
           ))}
         </div>

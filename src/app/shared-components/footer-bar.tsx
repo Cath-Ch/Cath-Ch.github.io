@@ -1,10 +1,11 @@
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
+import { Toolbar } from '@mui/material';
 
 export default function FooterBar() {
     return (
-        <AppBar position="static">
-
-        </AppBar>
+        <div className="footer">
+            
+        </div>
     );
 }

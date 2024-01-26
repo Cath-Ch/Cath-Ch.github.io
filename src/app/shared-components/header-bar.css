@@ -19,7 +19,7 @@
     font-size: 32px;
     font-weight: 500;
     letter-spacing: .1rem;
-    margin: 1rem;
+    margin: 1rem 1rem 1rem 0.5rem; /* top right bottom left */
 }
 
 .header-button-box {
@@ -28,7 +28,7 @@
 
 .header-button {
     color: white;
-    font-size: 1.1rem;
+    font-size: 18px;
     font-family: monospace;
     letter-spacing: 0.05rem;
     margin: 1rem;

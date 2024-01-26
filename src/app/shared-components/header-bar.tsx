@@ -15,7 +15,7 @@ export default function HeaderBar() {
             <Toolbar>
                 <Link href="/">
                     <div>
-                        <img src="/Logo.svg" className="header-logo-image" />
+                        <img src="/Logo_White.svg" className="header-logo-image" />
                     </div>
                 </Link>
                 <Link href="/">
@@ -25,7 +25,7 @@ export default function HeaderBar() {
                 </Link>
                 <div className="header-button-box">
                     {pages.map((page, index) => (
-                        <Link href={pageLinks[index]}>
+                        <Link key={pageLinks[index]} href={pageLinks[index]}>
                             <Button key={page} className="header-button">
                                 {page}
                             </Button>

@@ -3,8 +3,8 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import './header-bar.css';
 import Link from 'next/link';
+import './header-bar.css';
 
 const pages = ["👀 About Me", "💻 Projects", "📚 Course Help", "🎨 Hobbies Corner"];
 const pageLinks = ["/about-me", "/projects", "/course-help", "/hobbies-corner"];

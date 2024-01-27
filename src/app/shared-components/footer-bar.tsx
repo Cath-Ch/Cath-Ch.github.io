@@ -1,10 +1,10 @@
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import { Toolbar, Typography } from '@mui/material';
-import './footer-bar.css';
 import Link from 'next/link';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import './footer-bar.css';
 
 const pages = ["About Me", "Projects", "Course Help", "Hobbies Corner"];
 const pageLinks = ["/about-me", "/projects", "/course-help", "/hobbies-corner"];

@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "ghDeploy": "gh-pages -d build/server/app --branch deploy",
+    "ghDeploy": "gh-pages -d build --branch deploy",
     "deploy": "npm run build && npm run ghDeploy"
   },
   "dependencies": {

@@ -6,8 +6,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './footer-bar.css';
 
-const pages = ["About Me", "Projects", "Course Help", "Hobbies Corner"];
-const pageLinks = ["/about-me", "/projects", "/course-help", "/hobbies-corner"];
+const pages = ["Home", "About Me", "Projects", "Hobbies Corner"];
+const pageLinks = ["/", "/about-me", "/projects", "/hobbies-corner"];
 
 const socialIcons = [
   {label: "GitHub", icon: <GitHubIcon />, link: "https://github.com/Cath-Ch"}, 

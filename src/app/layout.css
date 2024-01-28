@@ -1,0 +1,17 @@
+.children-container {
+    flex: 1 1 auto;
+}
+
+.page-container > *:not(.children-container) {
+    /* header & footer */
+    flex: 0 1 auto;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#root, .page-container {
+    height: 100%;
+}

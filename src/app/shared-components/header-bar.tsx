@@ -6,8 +6,8 @@ import Typography from '@mui/material/Typography';
 import Link from 'next/link';
 import './header-bar.css';
 
-const pages = ["👀 About Me", "💻 Projects", "📚 Course Help", "🎨 Hobbies Corner"];
-const pageLinks = ["/about-me", "/projects", "/course-help", "/hobbies-corner"];
+const pages = ["👀 About Me", "💻 Projects", "🎨 Hobbies Corner"];
+const pageLinks = ["/about-me", "/projects", "/hobbies-corner"];
 
 export default function HeaderBar() {
     return (

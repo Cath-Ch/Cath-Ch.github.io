@@ -5,6 +5,8 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Link from 'next/link';
 import './header-bar.css';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const pages = ["👀 About Me", "💻 Projects", "🎨 Hobbies Corner"];
 const pageLinks = ["/about-me", "/projects", "/hobbies-corner"];

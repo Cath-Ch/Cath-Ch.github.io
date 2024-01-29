@@ -1,5 +1,8 @@
 .children-container {
     flex: 1 1 auto;
+    padding: 1rem;
+    margin: 3rem 5rem 3rem 5rem; /* top right bottom left */
+    font-family: monospace;
 }
 
 .page-container > *:not(.children-container) {
@@ -14,4 +17,5 @@
 
 #root, .page-container {
     height: 100%;
+    background-image: url("/Dotted_Background.png");
 }

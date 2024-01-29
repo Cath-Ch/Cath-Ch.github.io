@@ -1,7 +1,7 @@
 export default function HobbiesCorner() {
   return (
     <main>
-      <h1>Hobbies Corner</h1>
+      <h3>Hobbies Corner</h3>
     </main>
   );
 }
